@@ -14,3 +14,5 @@ First Lieutenant, Mounted Riflemen, Commanding.
 
 To the Assistant Adjutant-General,
 Headquarters of the Army, Washington, D. C.
+
+UUID: 7d3ccb24-5a40-4690-a8ed-a52d3417c308
