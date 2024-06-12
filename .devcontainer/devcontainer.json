@@ -1,0 +1,15 @@
+{
+    "name": "Ubuntu",
+    "image": "mcr.microsoft.com/devcontainers/base:noble",
+    "features": {
+        "ghcr.io/devcontainers/features/python:1": {}
+    },
+    "postCreateCommand": "python3 -m venv .venv && .venv/bin/pip install -r requirements.txt",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "python.pythonPath": ".venv/bin/python"
+            }
+        }
+    }
+}
