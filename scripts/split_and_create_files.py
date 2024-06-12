@@ -1,6 +1,7 @@
 import os
 import re
 import uuid
+import json  # Ensure the json module is imported
 
 def split_transcript(volume, transcript_path, output_dir):
     if not os.path.exists(output_dir):
@@ -57,4 +58,8 @@ def extract_tags(header):
     return []
 
 # Example usage
-split_transcript('Volume2', '/path/to/Volume2_transcript.txt', '/output/directory')
+volume = 'Volume2'
+transcript_path = 'Original Texts/The War of the Rebellion Volume 2 Chapter 9.txt'
+output_dir = 'script_test_output'
+
+split_transcript(volume, transcript_path, output_dir)
