@@ -4,26 +4,6 @@
 
 This project involves organizing, digitizing, structuring, and annotating the 128 volumes of the Official Records of the American Civil War. The goal is to create a comprehensive and analyzable dataset that supports detailed historical research and analysis.
 
-## Folder Structure
-
-The project directory is organized as follows:
-
-dataset-civil_war_records/
-├── .devcontainer/
-│   └── devcontainer.json
-├── Original Texts/
-│   ├── Volume 1/
-│   ├── Volume 2/
-│   │   └── The War of the Rebellion Volume 2 Chapter 9.txt
-│   ├── Volume 3/
-├── UUIDs.txt
-├── requirements.txt
-├── README.md
-└── scripts/
-    ├── split_and_create_files.py
-    ├── create_json_metadata.py
-└── script_test_output/
-
 ## Setup and Installation
 
 ### Prerequisites
