@@ -24,7 +24,6 @@ dataset-civil_war_records/
     ├── create_json_metadata.py
 └── script_test_output/
 
-
 ## Setup and Installation
 
 ### Prerequisites
